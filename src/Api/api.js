@@ -1,1 +1,1 @@
-exports.api = "https://localhost:3001/"
+exports.api = "https://rebate-server.herokuapp.com/"

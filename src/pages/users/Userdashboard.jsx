@@ -161,7 +161,7 @@ function Userdashboard({ match }) {
                   <div className="req-detail">
                     <h2>{request.product_name}</h2>
                     <span className="status border">
-                    {" "}% payment done :{" "}
+                    {" "} Payment done :{" "}
                       <span className={request.dealStatus ? "success" : "fail"}>
                         {request.dealStatus ? "100%" : "30%"}
                       </span>
