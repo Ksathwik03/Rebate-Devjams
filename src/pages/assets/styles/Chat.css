@@ -53,7 +53,7 @@
     height: 90%;
     width: 100%;
     padding: 30px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 form {
@@ -84,7 +84,7 @@ form {
     flex-direction: row;
     position: relative;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border-top: 2px solid black;
 }
 
@@ -92,9 +92,12 @@ form {
     width: 70%;
     outline: none;
     box-sizing: content-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-size: 16px;
     padding: 2px 8px;
+    background-color: #83eaf1;
+    border: none;
+    border-bottom: 1px solid black;
 }
 
 .sendMessage button {
@@ -109,6 +112,7 @@ form {
     color: white;
     border-radius: 2px;
     transition: box-shadow 0.3s ease-in-out;
+    margin-left: 5px;
 }
 
 .singlemessage {
@@ -141,3 +145,12 @@ form {
 sender {
     font-weight: bold;
 }
+
+.chat-main{
+    background-color:  #83eaf1;
+}
+
+/* .sendMessage input[type="text"] {
+    background-color: #63a4ff;
+    height: 25px;
+} */

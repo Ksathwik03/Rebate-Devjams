@@ -173,7 +173,7 @@ function Userdashboard({ match }) {
                   >
                     Chat{"   "} <BiRightArrow />
                   </button>
-                  {admin && !request.dealStatus &&
+                  {/* {admin && !request.dealStatus &&
                     <div >
                       <button
                         className="chat"
@@ -183,7 +183,7 @@ function Userdashboard({ match }) {
                         Accept{"   "} <BiRightArrow />
                       </button>
                     </div>
-                  }
+                  } */}
                   <button
                     className="icon"
                     onClick={() => {
