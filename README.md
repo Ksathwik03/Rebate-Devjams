@@ -9,7 +9,7 @@ npm install
 ``` bash
 npm start
 ```
-`Frontend has started on https://localhost:3000/`
+ - Frontend has started on https://localhost:3000/
 ### `Backend-setup`
 
 ``` bash
@@ -21,4 +21,4 @@ npm install
 ``` bash
 npm start
 ```
-`Frontend has started on https://localhost:3001/`
+ - Frontend has started on https://localhost:3001/
